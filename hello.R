@@ -1,4 +1,7 @@
 # CHAP Workshop - R Example
 
+library(dplyr)
+
 print("Hello from CHAP!")
-print("If you can see this message, R is working correctly.")
+print(paste("dplyr version:", packageVersion("dplyr")))
+print("If you can see this message, your environment is set up correctly.")
